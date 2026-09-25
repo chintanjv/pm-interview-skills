@@ -23,7 +23,7 @@ The frameworks draw on *Cracking the PM Interview* (McDowell & Bavaro), *Decode 
 Copy the skills into your personal skills folder:
 
 ```bash
-git clone https://github.com/<your-username>/pm-interview-skills.git
+git clone https://github.com/chintanjv/pm-interview-skills.git
 cp -R pm-interview-skills/skills/* ~/.claude/skills/
 ```
 
