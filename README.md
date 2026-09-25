@@ -1,6 +1,10 @@
 # PM Interview Skills for Claude
 
-Three free, open-source [Claude skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) for preparing for Product Manager interviews. Give Claude an interview question and get a structured, interview-ready model answer. You can also paste in your own answer to get it scored, or ask Claude to run a mock interview.
+Four free, open-source [Claude skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) for landing a Product Manager job: three for interview prep and one for tailoring your resume.
+
+## Interview prep
+
+Give Claude an interview question and get a structured, interview-ready model answer. You can also paste in your own answer to get it scored, or ask Claude to run a mock interview.
 
 | Skill | Question types | Framework |
 | --- | --- | --- |
@@ -9,6 +13,12 @@ Three free, open-source [Claude skills](https://docs.claude.com/en/docs/agents-a
 | [`pm-execution-interview`](skills/pm-execution-interview/SKILL.md) | Success metrics, metric drop, trade-offs, launch, experiment design | 6-step **C-G-M-A-D-S** playbook with modules and overlays |
 
 The frameworks draw on *Cracking the PM Interview* (McDowell & Bavaro), *Decode and Conquer* (Lewis Lin), and an analysis of top-voted public answers to popular PM interview questions.
+
+## Resume
+
+| Skill | What it does |
+| --- | --- |
+| [`resume-bullets`](skills/resume-bullets/SKILL.md) | Paste a job posting and get 16 tailored, ATS-friendly, quantified resume bullets that use the posting's own keywords. Works for any role, not just PM. |
 
 ## Install
 
@@ -36,6 +46,7 @@ Restart Claude Code. The skills then load automatically when you ask a matching 
 - "DAU for Uber Eats dropped 10% last week. What do you do?"
 - "Mock me on a metrics question."
 - "Score my answer: …" (then paste your answer)
+- "Write resume bullets for this job: …" (then paste the job posting)
 
 ## Contributing
 
