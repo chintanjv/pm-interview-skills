@@ -10,10 +10,10 @@ Give Claude an interview question and get a structured, interview-ready model an
 | --- | --- | --- |
 | [`product-sense-interview`](skills/product-sense-interview/SKILL.md) | Design X, improve X, favorite product | 8-step **CIRCLES+M** |
 | [`favorite-product-interview`](skills/favorite-product-interview/SKILL.md) | "What's your favorite product and why? How would you improve it?" (and variants: favorite app, AI product, badly designed product) | **SPARK** (why you love it) + **GUIDE** (how you'd improve it) |
-| [`pm-metrics-interview`](skills/pm-metrics-interview/SKILL.md) | Measure success, north star, metric dropped, A up / B down, should we ship | **STARTS** |
+| [`pm-metrics-interview`](skills/pm-metrics-interview/SKILL.md) | Measure success, north star, set a goal, metric dropped, A up / B down, should we ship | **STARTS** |
 | [`pm-execution-interview`](skills/pm-execution-interview/SKILL.md) | Success metrics, metric drop, trade-offs, launch, experiment design | 6-step **C-G-M-A-D-S** playbook with modules and overlays |
 
-The frameworks draw on *Cracking the PM Interview* (McDowell & Bavaro), *Decode and Conquer* (Lewis Lin), Ben Erez's product sense guide in Lenny's Newsletter, and an analysis of top-voted public answers to popular PM interview questions.
+The frameworks draw on *Cracking the PM Interview* (McDowell & Bavaro), *Decode and Conquer* (Lewis Lin), Ben Erez's product sense and analytical thinking guides in Lenny's Newsletter, and an analysis of top-voted public answers to popular PM interview questions.
 
 ## Resume
 
