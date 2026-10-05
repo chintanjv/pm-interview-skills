@@ -1,6 +1,6 @@
 # PM Interview Skills for Claude
 
-Four free, open-source [Claude skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) for landing a Product Manager job: three for interview prep and one for tailoring your resume.
+Five free, open-source [Claude skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) for landing a Product Manager job: four for interview prep and one for tailoring your resume.
 
 ## Interview prep
 
@@ -9,10 +9,11 @@ Give Claude an interview question and get a structured, interview-ready model an
 | Skill | Question types | Framework |
 | --- | --- | --- |
 | [`product-sense-interview`](skills/product-sense-interview/SKILL.md) | Design X, improve X, favorite product | 8-step **CIRCLES+M** |
+| [`favorite-product-interview`](skills/favorite-product-interview/SKILL.md) | "What's your favorite product and why? How would you improve it?" (and variants: favorite app, AI product, badly designed product) | **SPARK** (why you love it) + **GUIDE** (how you'd improve it) |
 | [`pm-metrics-interview`](skills/pm-metrics-interview/SKILL.md) | Measure success, north star, metric dropped, A up / B down, should we ship | **STARTS** |
 | [`pm-execution-interview`](skills/pm-execution-interview/SKILL.md) | Success metrics, metric drop, trade-offs, launch, experiment design | 6-step **C-G-M-A-D-S** playbook with modules and overlays |
 
-The frameworks draw on *Cracking the PM Interview* (McDowell & Bavaro), *Decode and Conquer* (Lewis Lin), and an analysis of top-voted public answers to popular PM interview questions.
+The frameworks draw on *Cracking the PM Interview* (McDowell & Bavaro), *Decode and Conquer* (Lewis Lin), Ben Erez's product sense guide in Lenny's Newsletter, and an analysis of top-voted public answers to popular PM interview questions.
 
 ## Resume
 
@@ -42,6 +43,7 @@ Restart Claude Code. The skills then load automatically when you ask a matching 
 ## Example prompts
 
 - "You're a PM at Spotify. Design a feature to help people discover podcasts."
+- "What's your favorite product and how would you improve it? I use Strava a lot."
 - "How would you measure success for Instagram Stories?"
 - "DAU for Uber Eats dropped 10% last week. What do you do?"
 - "Mock me on a metrics question."
